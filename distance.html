@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="distance.css" />
+
+    <script src="distance.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div >
+        <h3> PRICE CHART</h3>
+        <div class="Chart">
+          <table >
+            <tr>
+              <th>Distance(Kms)</th>
+              <th>Amount(KSh)</th>
+              <th></th>
+            </tr>
+
+            <tr>
+              <td><h6>1 - 10</h6></td>
+              <td><h6>100</h6></td>
+            </tr>
+            <tr>
+              <td><h6>11 - 50</h6></td>
+              <td><h6>300</h6></td>
+            </tr>
+            <tr>
+              <td><h6>51 - 100</h6></td>
+              <td><h6>500</h6></td>
+            </tr>
+            <tr>
+              <td><h6>101 - 200</h6></td>
+              <td><h6>1000</h6></td>
+            </tr>
+            <tr>
+              <td><h6>201 - 300</h6></td>
+              <td><h6>1200</h6></td>
+            </tr>
+            <tr>
+              <td><h6>301 - 400</h6></td>
+              <td><h6>1500</h6></td>
+            </tr>
+            <tr>
+              <td><h6>Above 401</h6></td>
+              <td><h6>Not applicable</h6></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div >
+        <h3>PRICE CALCULATOR</h3>
+        <div class="calc">
+          <div class="persons">
+            <div class="personsLabel">
+              <label for="persons"><h5> Number of People:</h5></label>
+        
+              <input type="text" id="personsTravelling" />
+            </div>
+          </div>
+
+          <div class="distance">
+             
+              <label for="distance">
+                <h5> distance to cover:</h5></label>
+             
+              <input type="text" id="distanceCovered" />
+              
+          </div>
+          <div class="result">
+            <button onclick="result()" id="amountButton" class="btn btn-primary">
+              amount payable
+            </button><br>
+            <input type="text" id="amountInput" />
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

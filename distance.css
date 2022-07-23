@@ -1,0 +1,68 @@
+.container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ 
+}
+body{
+    background-color: gray;
+}
+
+
+.calc {
+    width: 50%;
+    min-height: 30vh;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    border: 1px solid;
+    margin: auto;
+ 
+}
+table {
+    text-align: center;
+    border: none;
+
+}
+.persons {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.personsLabel {
+    width: 100%;
+    display: flex;
+}
+
+#personsTravelling {
+    border: none;
+    border-bottom: 1px solid;
+  
+}
+.distance {
+   width: 100%;
+    height : auto;
+    display: flex;
+  
+}
+.distanceLabel {
+    width: 50%;
+  }
+.distanceInput {
+    width: 50%;
+  }
+.result {
+    width: 90%;
+    height: auto;
+    display: flex;
+  }
+.amountButton {
+    width: 100%;
+    height: auto;
+  }
+.amountInput {
+    width: 100%;
+    height: auto;
+  }
+  
